@@ -165,3 +165,32 @@ dist
 .env*
 !.env.example
 .wrangler/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnail cache files
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# VSCode and JetBrains IDE settings
+.vscode/
+.idea/
+
+# Logs and local test data
+logs/
+*.log
+debug.log
+
+# Build artifacts
+build/
+dist/
